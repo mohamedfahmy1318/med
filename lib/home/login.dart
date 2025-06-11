@@ -5,6 +5,15 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: const Text('')), body: Container());
+    return Scaffold(
+      appBar: AppBar(title: const Text('login page')),
+      body: Container(
+        alignment: Alignment.center,
+        child: ElevatedButton(
+          onPressed: () {},
+          child: const Text('Go to Home Page'),
+        ),
+      ),
+    );
   }
 }
