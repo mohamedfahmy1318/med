@@ -1,0 +1,29 @@
+[33mcommit e023b573c0d86348bb683591ee4f27949c7c3086[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mupdatelogin[m[33m)[m
+Author: mohamed mohamed <mof4943@gmail.com>
+Date:   Wed Jun 11 20:41:04 2025 +0300
+
+    login page new
+
+[33mcommit 260b2cb4e925613afd02203452e60f6d43c2e319[m[33m ([m[1;32mmaster[m[33m)[m
+Author: mohamed mohamed <mof4943@gmail.com>
+Date:   Tue Jun 10 21:15:42 2025 +0300
+
+    feat: implement initial Login widget
+
+[33mcommit 5582ee8df1daef7d44cfae56e5402666974ed771[m
+Author: mohamed mohamed <mof4943@gmail.com>
+Date:   Tue Jun 10 21:06:36 2025 +0300
+
+    refactor: replace Home class with HomePage widget implementation
+
+[33mcommit 07cfdaac55ec0d48c1e442ef2f72f931baa30a92[m
+Author: mohamed mohamed <mof4943@gmail.com>
+Date:   Tue Jun 10 21:04:32 2025 +0300
+
+    create  home page
+
+[33mcommit 9ac7e49f1cc47541d1e2ca8e8175fa0e14b5da3b[m
+Author: mohamed mohamed <mof4943@gmail.com>
+Date:   Tue Jun 10 21:00:29 2025 +0300
+
+    first init app
