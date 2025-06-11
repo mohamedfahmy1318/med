@@ -7,12 +7,23 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('login page')),
-      body: Container(
-        alignment: Alignment.center,
-        child: ElevatedButton(
-          onPressed: () {},
-          child: const Text('Go to Home Page'),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Text('Login Page'),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Go to Home Page'),
+            ),
+          ],
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pop(context);
+        },
+        child: const Icon(Icons.arrow_back),
       ),
     );
   }
